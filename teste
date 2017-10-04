@@ -1,0 +1,18 @@
+- { property: 'nome',                   label: 'Nome' }
+                     - { property: 'apelido',                label: 'Apelido / Nome Social' }
+                     - { property: 'genero',                 label: 'Gênero' }
+-                    - { property: 'dataNascimento',         label: 'Data de nascimento', type_options: { widget: 'single_text' } }
++                    - { property: 'dataNascimento',         label: 'Data de nascimento', type_options: { widget: 'single_text', 'attr': {'class': 'datepicker' } } }
+                     - { property: 'nomePai',                label: 'Nome do Pai' }
+                     - { property: 'nomeMae',                label: 'Nome da Mãe' }
+                     - { property: 'naturalidade',           label: 'Naturalidade' }
+-                    - { property: 'familiaMonoparental',    label: 'Família Monoparental' }
+                     - { property: 'rg',                     label: 'RG' }
+                     - { property: 'cpf',                    label: 'CPF' }
+                     - { property: 'pisNisPasep',            label: 'PIS/PASEP/NIS' }
+Add a comment to this line
+                     - { property: 'estadoCivil',            label: 'Estado Civil',           css_class: 'estado_civil' }
++                    - { property: 'familiaMonoparental',    label: 'Família Monoparental' }
+                     - { property: 'unicaoEstavel',          label: 'União estável',          css_class: 'check_uniaoestavel' }
+                     - { property: 'tempoUniaoEstavel',      label: 'Tempo de união estável', css_class: 'temp_uniaoestavel', help: 'Se aplicável' }
+                     - { property: 'escolaridade',           label: 'Escolaridade' }
