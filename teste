@@ -8,7 +8,7 @@
                      - { property: 'naturalidade',           label: 'Naturalidade' }
 -                    - { property: 'familiaMonoparental',    label: 'Família Monoparental' }
                      - { property: 'rg',                     label: 'RG' }
-                     - { property: 'cpf',                    label: 'CPF' }
+                   
                      - { property: 'pisNisPasep',            label: 'PIS/PASEP/NIS' }
 Add a comment to this line
                      - { property: 'estadoCivil',            label: 'Estado Civil',           css_class: 'estado_civil' }
